@@ -1,0 +1,175 @@
+/****** About page styles *******/
+.about_text {
+  padding: 8rem;
+  margin-bottom: 13rem;
+}
+
+.about_h1 {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.about_p {
+  max-width: 90rem;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 3rem;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.certications {
+  padding: 8rem;
+  margin: 8rem 0;
+}
+
+.cert_p1 {
+  font-size: 2.2rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.cert_container {
+  width: 80%;
+  margin: 15rem auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.2rem 0.2rem 1rem #fff;
+}
+
+.cert {
+  width: 70%;
+  height: 60rem;
+  background-position: center;
+}
+
+.cert_1 {
+  background-image: url("https://res.cloudinary.com/home-of-websites/image/upload/c_scale,w_1200/v1550501091/alc_ublyis.png");
+  background-size: cover;
+}
+
+.cert_2 {
+  background-image: url("https://res.cloudinary.com/home-of-websites/image/upload/c_scale,w_1200/v1550502062/fcc-certificate-1_paayxy.png");
+  background-size: cover;
+}
+
+.cert_details {
+  display: flex;
+  width: 27%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cert_details h2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
+
+.cert_details p {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+/***** MEDIA QUERIES *****/
+@media only screen and (max-width: 75em) /* 900px - 1200px tablet landscape*/ {
+  .about_text {
+    padding: 10rem;
+  }
+  .about_h1 {
+    font-size: 5rem;
+  }
+
+  .about_p {
+    font-size: 2.5rem;
+  }
+
+  .cert_container {
+    margin: 5rem auto;
+  }
+
+  .cert_1 {
+    background-image: url("https://res.cloudinary.com/home-of-websites/image/upload/c_scale,w_900/v1550501091/alc_ublyis.png");
+  }
+
+  .cert_2 {
+    background-image: url("https://res.cloudinary.com/home-of-websites/image/upload/c_scale,w_900/v1550502062/fcc-certificate-1_paayxy.png");
+  }
+
+  .cert_details h2 {
+    font-size: 2.5rem;
+  }
+
+  .cert_details p {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) /* 600px - 900px tablet potrait*/ {
+  .about_h1 {
+    font-size: 4rem;
+  }
+
+  .about_p {
+    width: 100%;
+    font-size: 2.3rem;
+  }
+
+  .cert_container {
+    width: 95%;
+  }
+
+  .cert {
+    width: 100%;
+  }
+
+  .cert_1 {
+    background-image: url("https://res.cloudinary.com/home-of-websites/image/upload/c_scale,w_600/v1550501091/alc_ublyis.png");
+  }
+
+  .cert_2 {
+    background-image: url("https://res.cloudinary.com/home-of-websites/image/upload/c_scale,w_600/v1550502062/fcc-certificate-1_paayxy.png");
+  }
+
+  .cert_details {
+    width: 29%;
+  }
+
+  .cert_details h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .cert_details p {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) /* 0px - 600px small phone */ {
+  .about_text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about_p {
+    width: 90%;
+    letter-spacing: normal;
+  }
+
+  .cert_container {
+    flex-direction: column;
+    width: 90%;
+    box-shadow: none;
+  }
+  .cert_details {
+    width: 100%;
+  }
+}
