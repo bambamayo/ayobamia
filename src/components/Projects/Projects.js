@@ -15,9 +15,9 @@ const Projects = () => (
            react-router for routing and css3 for styling. This single page static application
             is fully responsive with the help of css media queries. "
           projectTech="ReactJs, React-Router, Css3"
-          linkHref1="https://github.com/bambamayo/bambam-photography/"
+          linkHref1="https://github.com/bambamayo/ayobamia"
           iconClass="fab fa-github"
-          linkHref2="https://bambamayo.github.io/bambam-photography/"
+          linkHref2="https://ayobami-agunroye.netlify.com/"
           iconClass2="fas fa-globe"
         />
       </div>

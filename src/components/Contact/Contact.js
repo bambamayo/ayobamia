@@ -6,8 +6,8 @@ const Contact = () => (
   <>
     <div className="contact">
       <h2 className="contact-header">Hire me</h2>
-      <Zoom delay={500}>
-        <ul className="contact-details-list">
+      <ul className="contact-details-list">
+        <Zoom delay={500}>
           <li className="email contact-detail">
             <a className="profile-link" href="mailto:ayobamiagunroye@gmail.com">
               <span>
@@ -15,6 +15,8 @@ const Contact = () => (
               </span>
             </a>
           </li>
+        </Zoom>
+        <Zoom delay={700}>
           <li className="github contact-detail">
             <a className="profile-link" href="https://github.com/bambamayo">
               <span>
@@ -22,6 +24,8 @@ const Contact = () => (
               </span>
             </a>
           </li>
+        </Zoom>
+        <Zoom delay={900}>
           <li className="twitter contact-detail">
             <a className="profile-link" href="https://twitter.com/agunroye_">
               <span>
@@ -36,6 +40,8 @@ const Contact = () => (
               </span>
             </a>
           </li>
+        </Zoom>
+        <Zoom delay={1100}>
           <li className="linkedin contact-detail">
             <a
               className="profile-link"
@@ -46,8 +52,8 @@ const Contact = () => (
               </span>
             </a>
           </li>
-        </ul>
-      </Zoom>
+        </Zoom>
+      </ul>
     </div>
   </>
 );
